@@ -41,7 +41,8 @@ if __name__ == "__main__":
         default=10_000_000,
         help="Number of points to use for PI estimation",
     )
-    parser.add_argument("--seed",
+    parser.add_argument(
+        "--seed",
         type=int,
         default=None,
         help="Random seed for PI estimation",
